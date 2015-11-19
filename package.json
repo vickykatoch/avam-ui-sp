@@ -1,0 +1,23 @@
+{
+  "name": "avam-ui-sp",
+  "version": "1.0.0",
+  "description": "The making of avam-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickykatoch/avam-ui-sp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickykatoch/avam-ui-sp/issues"
+  },
+  "homepage": "https://github.com/vickykatoch/avam-ui-sp#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

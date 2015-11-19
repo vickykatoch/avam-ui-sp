@@ -1,0 +1,28 @@
+{
+  "name": "avam-ui-sp",
+  "description": "The making of avam-ui",
+  "main": "index.js",
+  "authors": [
+    "Balwinder Katoch <vickykatoch@yahoo.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vickykatoch/avam-ui-sp",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular-mocks": "~1.4.7",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}

@@ -1,0 +1,3 @@
+module avam.ui.directives{
+		
+}
