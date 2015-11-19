@@ -1,0 +1,35 @@
+.aui-header-panel{
+	background-color: white;
+    padding: 0 20px;
+    border-bottom: 2px solid black;
+}
+
+.aui-header-panel-left{
+	
+}
+.aui-header-panel-right{
+    line-height: 60px;
+}
+.aui-header-panel-right > div {
+    text-align: center;
+}
+.aui-logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    vertical-align: top;
+    border: 1px solid #999;
+}
+.aui-logo-text{
+    display: inline-block;
+}
+.aui-logo-title{
+    color: #111;
+    margin-top: 6px;
+    font-size: 22px;
+}
+.aui-logo-subtitle {
+    font-size: 13px;
+    margin-top: -13px;
+}

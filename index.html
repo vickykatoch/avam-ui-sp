@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="avam">
 <head>
 	<title>Avam-UI</title>
+	<link href="favicon.ico" rel="shortcut icon" />
+	<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="src/avam-ui/avamUI.style.css">
+	<link rel="stylesheet" href="src/avam-ui/menu/avamUIMenu.style.css">
+	<link rel="stylesheet" href="src/styles/app.css">
 </head>
 
-<body>
-<h1>Hello World</h1>
-</body>
+<body class="container-fluid">
+<avam-ui title="AVAM" 
+	subtitle="An Angular UI Framework"
+	icon-file="src/styles/images/logo.jpg">
+	
+</avam-ui>
 
+
+
+<!--EXTERNAL JS FILES-->
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-resource/angular-resource.js"></script>
+<script src="lib/angular-mocks/angular-mocks.js"></script>
+
+<!--AVAM UI MODULE FILES-->
+<script src="/src/avam-ui/avamUI.module.js"></script>
+<script src="/src/avam-ui/avamUI.directive.js"></script>
+
+<!--Application Files-->
+<script src="/src/app.module.js"></script>
+<script src="/src/app.config.js"></script>
+<script src="/src/app.run.js"></script>
+</body>
 </html>
