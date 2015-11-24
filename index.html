@@ -5,7 +5,7 @@
 	<link href="favicon.ico" rel="shortcut icon" />
 	<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="src/avam-ui/avamUI.style.css">
-	<link rel="stylesheet" href="src/avam-ui/menu/avamUIMenu.style.css">
+	<link rel="stylesheet" href="src/avam-ui/menu/avamMenu.style.css">
 	<link rel="stylesheet" href="src/styles/app.css">
 </head>
 
@@ -13,7 +13,11 @@
 <avam-ui title="AVAM" 
 	subtitle="An Angular UI Framework"
 	icon-file="src/styles/images/logo.jpg">
-	
+	<avam-menu>
+		<avam-menu-item label="Dashboard" icon="fa-dashboard" route="dashboard"></avam-menu-item>
+		<avam-menu-item label="Locations" icon="fa-location-arrow" route="locations"></avam-menu-item>
+		<avam-menu-item label="Raft Guides" icon="fa-user" route="guides"></avam-menu-item>
+	</avam-menu>
 </avam-ui>
 
 
@@ -23,10 +27,17 @@
 <script src="lib/angular/angular.js"></script>
 <script src="lib/angular-resource/angular-resource.js"></script>
 <script src="lib/angular-mocks/angular-mocks.js"></script>
+<script src="lib/angular-animate/angular-animate.js"></script>
 
 <!--AVAM UI MODULE FILES-->
+<script src="/src/avam-ui/menu/avamMenu.module.js"></script>
+<script src="/src/avam-ui/menu/avamMenu.directive.js"></script>
+<script src="/src/avam-ui/menu/avamMenuItem.directive.js"></script>
+
 <script src="/src/avam-ui/avamUI.module.js"></script>
 <script src="/src/avam-ui/avamUI.directive.js"></script>
+
+
 
 <!--Application Files-->
 <script src="/src/app.module.js"></script>

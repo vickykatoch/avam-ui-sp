@@ -6,6 +6,7 @@ module avam.ui.directives{
 		static instance() : ng.IDirective{
 			return new avamUIDirective;
 		}
+		transclude = true;
 		restrict = 'E';
 		scope ={
 			title: '@',

@@ -1,0 +1,99 @@
+.aui-menu-panel{
+	position: relative;
+    background-color: #333;
+    color: #ccc;
+    padding-left: 0;
+}
+.aui-menu-panel ul{
+    padding-left: 0;
+}
+.aui-menu-panel .btn:hover {
+    color: #ccc;
+}
+
+.aui-menu-panel-vertical{
+    float: left;
+    width: 200px;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+.aui-menu-panel-horizontal{
+    width: 100%;
+    height: 40px;
+}
+
+
+.aui-menu {
+	list-style-type: none;
+    vertical-align: top;
+}
+.aui-menu ul{
+    display: inline;
+    list-style-type: none;
+    padding-left: 0;
+}
+.aui-menu li {
+    line-height: 3em;
+    cursor: pointer;
+}
+
+.aui-menu li div {
+    display: inline-block;
+    width: 90%;
+    padding-left: 16px;
+}
+.aui-item-horizontal {
+    display: inline-block;
+    width: 165px !important;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 1.5em !important;
+}
+
+
+.aui-menu-toggle-button{
+    margin: 12px;
+    padding: 2px 8px;
+    color: #bbb;
+    background-color: #333;
+    border: 1px solid #999;
+}
+.aui-selectable-item{
+    background-color: #555;
+}
+
+.aui-noselect{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.aui-menu-icon{
+    margin-right: 10px;
+}
+.aui-subitem-section{
+    padding-left: 16px;
+}
+.aui-fade-in-animation {
+    -moz-transition: linear all 0.5s;
+    -o-transition: linear all 0.5s;
+    -webkit-transition: linear all 0.5s;
+    transition: linear all 0.5s;
+}
+.aui-fade-in-animation.ng-hide {
+    opacity: 0;
+}
+.aui-popup-menu {
+    position: absolute;
+    z-index: 1000;
+    background-color: #333;
+    width: 200px;
+    padding-left: 0;
+}
+.aui-menu-active-indicator {
+    float: right;
+    color: #ddd;
+    margin-right: 0;
+    margin-top: 8px;
+}

@@ -1,0 +1,17 @@
+
+<li class="aui-selectable-item" 
+    ng-click="clicked()" 
+    ng-class="{'aui-item-horizontal': !isVertical()}">
+    <div class="aui-noselect">
+        <i class="fa {{icon}} aui-menu-icon"></i>
+        {{label}}
+        <i ng-if="isVertical()"
+           class="fa fa-chevron-left aui-group-indicator-left"
+           ng-class="{'fa-rotate-270': isOpen}"></i>
+    </div>
+</li>
+<div ng-show="isOpen" 
+    class="aui-subitem-section aui-fade-in-animation" 
+        ng-class="{'aui-popup-menu': !isVertical() }">
+    <ul ng-transclude></ul>
+</div>
