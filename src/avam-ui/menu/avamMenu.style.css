@@ -51,14 +51,23 @@
 }
 
 
-.aui-menu-toggle-button{
+.aui-menu-layout-button{
     margin: 12px;
     padding: 2px 8px;
     color: #bbb;
     background-color: #333;
     border: 1px solid #999;
 }
-.aui-selectable-item{
+
+.aui-menu-layout-button-horizontal {
+    position: absolute;
+    top: -6px;
+    right: 10px;
+}
+
+
+
+.aui-selectable-item:hover{
     background-color: #555;
 }
 
